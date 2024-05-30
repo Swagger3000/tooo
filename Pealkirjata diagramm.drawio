@@ -1,0 +1,65 @@
+<mxfile host="Electron" modified="2024-05-30T07:44:10.284Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.8.2 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="WnyWPJ6NzeNki3g8LuLf" version="21.8.2" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="648" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="MH8nShaRoZfIPJejkB44-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MH8nShaRoZfIPJejkB44-0" target="MH8nShaRoZfIPJejkB44-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MH8nShaRoZfIPJejkB44-0" value="&lt;div&gt;static void kolmas()&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Console.WriteLine(&quot;mis? tahad kirjutada v?&quot;);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="110" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MH8nShaRoZfIPJejkB44-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MH8nShaRoZfIPJejkB44-1" target="MH8nShaRoZfIPJejkB44-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MH8nShaRoZfIPJejkB44-1" value="string kiri = Console.ReadLine();" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MH8nShaRoZfIPJejkB44-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MH8nShaRoZfIPJejkB44-2" target="MH8nShaRoZfIPJejkB44-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MH8nShaRoZfIPJejkB44-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MH8nShaRoZfIPJejkB44-2" target="MH8nShaRoZfIPJejkB44-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MH8nShaRoZfIPJejkB44-2" value="if (kiri == &quot;ja&quot;)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="410" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MH8nShaRoZfIPJejkB44-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MH8nShaRoZfIPJejkB44-3" target="MH8nShaRoZfIPJejkB44-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MH8nShaRoZfIPJejkB44-3" value="&lt;div&gt;Console.WriteLine(&quot;Kirjuta faili läbi konsooli&quot;);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;string filePath = @&quot;C:\Users\opilane\source\repos\kakka.txt&quot;;&lt;/div&gt;&lt;div&gt;string inputText = Console.ReadLine();&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;File.WriteAllText(filePath, inputText);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="430" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MH8nShaRoZfIPJejkB44-8" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="388" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MH8nShaRoZfIPJejkB44-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MH8nShaRoZfIPJejkB44-9" target="MH8nShaRoZfIPJejkB44-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MH8nShaRoZfIPJejkB44-9" value="else" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MH8nShaRoZfIPJejkB44-13" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="318" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MH8nShaRoZfIPJejkB44-14" value="Console.WriteLine(&quot;TÕMBA UTTU :D&quot;);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="430" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MH8nShaRoZfIPJejkB44-16" value="start" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="425" y="68" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MH8nShaRoZfIPJejkB44-17" value="end" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="570" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MH8nShaRoZfIPJejkB44-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.528;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MH8nShaRoZfIPJejkB44-14" target="MH8nShaRoZfIPJejkB44-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="586" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
